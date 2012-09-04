@@ -1,3 +1,5 @@
+package vehicle;
+
 import powersource.PowerSource;
 
 /**
