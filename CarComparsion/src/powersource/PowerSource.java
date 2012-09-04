@@ -3,7 +3,7 @@
  */
 package powersource;
 
-import powersource.fuel.Fuel;
+import powersource.fuel.FuelUnitInterface;
 
 
 /**
@@ -16,7 +16,7 @@ public interface PowerSource {
 	void setUtilityRate(double newUtilityPercentage);
 	
 	double milesPerFuelUnit();
-	Fuel getFuel();
+	FuelUnitInterface getFuel();
 	String getFuelName();
 	double getCO2PerMile();
 	double getFuelDollarsPerMile();

@@ -1,6 +1,6 @@
 package powersource.fuel;
 
-public interface Fuel {
+public interface FuelUnitInterface {
 
 	String getName();
 	double getCO2perUnit();
